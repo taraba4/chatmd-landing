@@ -436,3 +436,14 @@ body { line-height: 1.6; }
   .final-benefit-pill { animation: none; transform: none; }
 }
 
+
+/* MDAssist medical chat mark shared by the header and footer. */
+.brand-mark {
+  transform: none;
+}
+.brand-mark svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
