@@ -25,7 +25,7 @@
   --layout-gap: clamp(32px, 5vw, 72px);
 }
 body { line-height: 1.6; }
-html { scroll-padding-top: 72px; }
+html { scroll-padding-top: 60px; }
 .container { width: min(calc(100% - 80px), var(--container-max)); }
 .section-shell { padding-block: var(--section-space); }
 .section-shell--soft { background: #f7f8fb; }
@@ -68,9 +68,8 @@ html { scroll-padding-top: 72px; }
 .header-cta { min-height: 40px; }
 .main-nav { gap: 28px; }
 .main-nav a { font-size: var(--type-ui); }
-.main-nav__item { color: #555b6b; font-size: var(--type-ui); font-weight: 550; }
 .brand-copy strong { letter-spacing: -.04em; }
-.scenario-radio { scroll-margin-top: 72px; }
+.scenario-radio { scroll-margin-top: 60px; }
 
 /* First screen: keep the complete original dialogue composition. */
 .hero-section { padding-top: 48px; padding-bottom: 0; }
@@ -234,7 +233,6 @@ html { scroll-padding-top: 72px; }
   .container { width: calc(100% - 64px); }
   .main-nav { gap: 16px; }
   .main-nav a { font-size: 12px; }
-  .main-nav__item { font-size: 12px; }
   .brand { min-width: 0; }
   .hero-grid { min-height: 570px; gap: 24px; }
   .hero-copy h1 { font-size: clamp(36px, 4.7vw, 51px); }
@@ -259,7 +257,7 @@ html { scroll-padding-top: 72px; }
 
 @media (max-width: 767px) {
   :root { --type-title: clamp(30px, 7.6vw, 38px); --type-body: 16px; --type-card: 20px; --section-space: 64px; --layout-gap: 32px; }
-  html { scroll-padding-top: 72px; }
+  html { scroll-padding-top: 60px; }
   .container { width: calc(100% - 40px); }
   .section-title { margin-bottom: 28px; }
   .eyebrow { margin-bottom: 16px; font-size: 12px; letter-spacing: .07em; }
@@ -274,7 +272,6 @@ html { scroll-padding-top: 72px; }
   .header-cta svg { display: block; }
   .menu-toggle { width: 40px; height: 40px; }
   .main-nav--mobile a { font-size: 16px; min-height: 48px; }
-  .main-nav--mobile .main-nav__item { padding: 13px 12px; font-size: 16px; }
   .hero-section { padding-top: 24px; padding-bottom: 0; }
   .hero-grid { gap: 0; min-height: 0; }
   .hero-copy { padding: 8px 0 0; }
