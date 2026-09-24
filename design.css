@@ -500,3 +500,42 @@ body { line-height: 1.6; }
 .brand-mark {
   display: block;
 }
+
+/* Make the patient question resolve into one clear product benefit. */
+.patient-question-card .question-card-bottom {
+  display: block;
+  width: 100%;
+  margin-top: auto;
+  padding: 16px 18px;
+  border: 0;
+  border-radius: 17px;
+  color: #fff;
+  background: linear-gradient(130deg, #7053ed, #8066f2);
+  box-shadow: 0 10px 24px #7053ed2b;
+}
+.question-card-bottom__label {
+  display: block;
+  margin-bottom: 6px;
+  color: #e8e2ff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .08em;
+}
+.patient-question-card .question-card-bottom strong {
+  display: block;
+  color: #fff;
+  font-family: var(--font-manrope), sans-serif;
+  font-size: 16px;
+  font-weight: 650;
+  letter-spacing: -.015em;
+  line-height: 1.45;
+}
+@media (max-width: 767px) {
+  .patient-question-card .question-card-bottom {
+    padding: 14px 15px;
+    border-radius: 15px;
+  }
+  .patient-question-card .question-card-bottom strong {
+    font-size: 15px;
+  }
+}
