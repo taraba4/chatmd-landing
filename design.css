@@ -175,6 +175,7 @@ html { scroll-padding-top: 60px; }
 .dashboard-head { gap: 12px; margin-bottom: 24px; }
 .dashboard-title { font-size: 18px; font-weight: 650; }
 .dashboard-metrics { gap: 12px; }
+.analytics-dashboard > .dashboard-metrics, .analytics-dashboard > .dashboard-chart-card, .analytics-dashboard > .dashboard-bottom { display: none; }
 .dashboard-metrics > div { padding: 16px 12px; background: #f8f7fc; border: 0; border-radius: 12px; }
 .dashboard-metrics strong { font-size: 30px; font-weight: 600; letter-spacing: -.04em; }
 .dashboard-metrics small, .dashboard-metrics > div > span, .chart-y-labels, .chart-bar-wrap small, .chart-title small { color: var(--text-muted); }
@@ -187,6 +188,14 @@ html { scroll-padding-top: 60px; }
 .topic-chip { background: white; padding: 5px 10px; }
 .unanswered-card { border-radius: 0; border: 0; border-top: 1px solid var(--border); padding: 16px 0 0; min-height: 0; }
 .unanswered-card > div { display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.topic-breakdown { display: grid; gap: 16px; padding-top: 4px; }
+.topic-breakdown__row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 16px; align-items: center; font-size: var(--type-ui); }
+.topic-breakdown__row span { color: var(--text-secondary); }
+.topic-breakdown__row strong { color: var(--text); font-size: 15px; font-weight: 650; }
+.topic-breakdown__row i { display: block; grid-column: 1 / -1; height: 6px; border-radius: 999px; background: #eceaf4; overflow: hidden; }
+.topic-breakdown__row i::after { content: ''; display: block; width: var(--topic-share); height: 100%; border-radius: inherit; background: #b7add5; }
+.topic-breakdown__row--accent i::after { background: var(--accent); }
+.topic-breakdown__row--accent span, .topic-breakdown__row--accent strong { color: var(--accent-strong); }
 .setup-section { background: white; }
 .setup-grid { grid-template-columns: 1fr 1fr; gap: var(--layout-gap); align-items: center; }
 .setup-knowledge-card { padding: 32px; border-radius: 24px; border-color: var(--border); background: #faf9fd; box-shadow: none; }
@@ -356,6 +365,8 @@ html { scroll-padding-top: 60px; }
   .dashboard-metrics strong { font-size: 28px; }
   .chart-bars { gap: 8px; }
   .dashboard-bottom { grid-template-columns: 1fr; }
+  .topic-breakdown { gap: 14px; }
+  .topic-breakdown__row { font-size: 15px; }
   .setup-knowledge-card { padding: 24px; border-radius: 20px; }
   .setup-mis-note { grid-template-columns: 32px 1fr; gap: 12px; }
   .setup-mis-note p { font-size: 14px; }
