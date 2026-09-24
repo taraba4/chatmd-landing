@@ -1,0 +1,2898 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   ChatMD — AI-администратор для клиник
+  </title>
+  <meta content="Помогает посетителям сайта разобраться в услугах клиники и перейти к записи." name="description"/>
+  <link href="./styles.css" rel="stylesheet"/>
+  <link href="./design.css" rel="stylesheet"/>
+ </head>
+ <body class="font-manrope-variable font-inter-variable">
+  <header class="site-header">
+   <div class="header-inner container">
+    <a aria-label="ChatMD — на главную" class="brand" href="#top">
+     <span class="brand-mark">
+      <span>
+      </span>
+      <span>
+      </span>
+      <span>
+      </span>
+      <span>
+      </span>
+     </span>
+     <span class="brand-copy">
+      <strong>
+       ChatMD
+      </strong>
+      <small>
+       AI-администратор клиники
+      </small>
+     </span>
+    </a>
+    <nav aria-label="Основная навигация" class="main-nav main-nav--desktop">
+     <a href="#product">
+      Продукт
+     </a>
+     <a href="#how-it-works">
+      Как работает
+     </a>
+     <a href="#dialogues">
+      Примеры диалогов
+     </a>
+     <a href="#security">
+      Безопасность
+     </a>
+    </nav>
+    <div class="header-actions">
+     <a aria-label="Получить демо" class="button button--small button--primary header-cta" href="#demo">
+      <span class="header-cta__label">
+       Получить демо
+      </span>
+      <span aria-hidden="true" class="header-cta__compact-label">
+       Демо
+      </span>
+      <svg aria-hidden="true" class="lucide lucide-arrow-right" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
+       <path d="M5 12h14">
+       </path>
+       <path d="m12 5 7 7-7 7">
+       </path>
+      </svg>
+     </a>
+     <details class="mobile-menu">
+      <summary aria-label="Открыть меню сайта" class="menu-toggle">
+       <svg aria-hidden="true" class="lucide lucide-menu menu-toggle__open" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 5h16">
+        </path>
+        <path d="M4 12h16">
+        </path>
+        <path d="M4 19h16">
+        </path>
+       </svg>
+       <svg aria-hidden="true" class="lucide lucide-x menu-toggle__close" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18 6 6 18">
+        </path>
+        <path d="m6 6 12 12">
+        </path>
+       </svg>
+      </summary>
+      <nav aria-label="Мобильная навигация" class="main-nav main-nav--mobile">
+       <a href="#product">
+        Продукт
+       </a>
+       <a href="#how-it-works">
+        Как работает
+       </a>
+       <a href="#dialogues">
+        Примеры диалогов
+       </a>
+       <a href="#security">
+        Безопасность
+       </a>
+      </nav>
+     </details>
+    </div>
+   </div>
+  </header>
+  <main id="top">
+   <section class="hero-section section-shell" id="product">
+    <div class="container hero-grid">
+     <div class="hero-copy">
+      <p class="hero-kicker">
+       <span aria-hidden="true" class="hero-kicker__mark">
+       </span>
+       <span class="hero-kicker__text">
+        Когда пациенту нужна помощь с выбором
+       </span>
+       <svg aria-hidden="true" class="lucide lucide-chevron-right hero-kicker__arrow" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+        <path d="m9 18 6-6-6-6">
+        </path>
+       </svg>
+      </p>
+      <h1>
+       <span class="hero-title__product">
+        AI-администратор
+       </span>
+       <br/>
+       <span>
+        для клиник
+       </span>
+      </h1>
+      <p class="hero-lead">
+       Превращает посетителей сайта в записанных пациентов 24/7
+      </p>
+      <p class="hero-description">
+       Понимает запрос пациента, отвечает на вопросы о клинике, помогает выбрать врача или услугу и доводит пациента до записи.
+      </p>
+      <div class="hero-actions">
+       <a class="button button--primary button--large" href="#demo">
+        Получить демо
+        <svg aria-hidden="true" class="lucide lucide-arrow-right" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+         <path d="M5 12h14">
+         </path>
+         <path d="m12 5 7 7-7 7">
+         </path>
+        </svg>
+       </a>
+       <a class="button button--text button--large" href="#how-it-works">
+        Посмотреть, как работает
+        <span class="button-play">
+         ↓
+        </span>
+       </a>
+      </div>
+     </div>
+     <div aria-hidden="true" class="hero-concept">
+      <span class="hero-concept__glow hero-concept__glow--peach">
+      </span>
+      <span class="hero-concept__glow hero-concept__glow--lilac">
+      </span>
+      <img alt="" class="hero-concept__patient" decoding="async" height="1536" sizes="(max-width: 767px) 100vw, 680px" src="./images/hero-patient-cutout.png" width="1024"/>
+      <div class="hero-concept__bubble hero-concept__bubble--greeting">
+       <span class="hero-concept__avatar hero-concept__avatar--patient">
+        <svg aria-hidden="true" class="lucide lucide-message-circle" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+         <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
+         </path>
+        </svg>
+       </span>
+       <span>
+        Здравствуйте! Помогите мне выбрать врача.
+       </span>
+      </div>
+      <div class="hero-concept__bubble hero-concept__bubble--invitation">
+       <span class="hero-concept__avatar hero-concept__avatar--assistant">
+        <svg aria-hidden="true" class="lucide lucide-sparkles lucide-stars" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+         <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+         </path>
+         <path d="M20 2v4">
+         </path>
+         <path d="M22 4h-4">
+         </path>
+         <circle cx="4" cy="20" r="2">
+         </circle>
+        </svg>
+       </span>
+       <span>
+        Конечно. Расскажите, что вас беспокоит.
+       </span>
+      </div>
+      <div class="hero-concept__bubble hero-concept__bubble--request">
+       <span class="hero-concept__avatar hero-concept__avatar--patient">
+        <svg aria-hidden="true" class="lucide lucide-message-circle" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+         <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
+         </path>
+        </svg>
+       </span>
+       <span>
+        Хочу записаться к неврологу. Он принимает в вашей клинике?
+       </span>
+      </div>
+      <div class="hero-concept__bubble hero-concept__bubble--response">
+       <span class="hero-concept__avatar hero-concept__avatar--assistant">
+        <svg aria-hidden="true" class="lucide lucide-sparkles lucide-stars" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+         <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+         </path>
+         <path d="M20 2v4">
+         </path>
+         <path d="M22 4h-4">
+         </path>
+         <circle cx="4" cy="20" r="2">
+         </circle>
+        </svg>
+       </span>
+       <span>
+        Да, у нас ведёт приём невролог. Помогу с записью.
+       </span>
+      </div>
+      <div class="hero-concept__doctor">
+       <img alt="" class="hero-concept__doctor-photo" decoding="async" height="1024" loading="lazy" sizes="80px" src="./images/hero-specialist.png" width="1024"/>
+       <div class="hero-concept__doctor-copy">
+        <strong>
+         Невролог
+        </strong>
+        <span>
+         Иванов А. С.
+        </span>
+        <b>
+         Приём от 3 500 ₽
+        </b>
+       </div>
+       <span class="hero-concept__doctor-action">
+        Записаться
+       </span>
+      </div>
+     </div>
+     <div aria-hidden="true" class="hero-visual hero-visual--legacy">
+      <div class="hero-ambient hero-ambient--one">
+      </div>
+      <div class="hero-ambient hero-ambient--two">
+      </div>
+      <div class="hero-photo-frame">
+       <img alt="Пациентка пользуется телефоном в светлом интерьере" class="hero-photo" decoding="async" height="1536" sizes="(max-width: 767px) 90vw, (max-width: 1200px) 52vw, 650px" src="./images/hero-patient.jpg" width="1024"/>
+       <div class="hero-photo-wash">
+       </div>
+      </div>
+      <div aria-label="Демонстрационный чат" class="chat-surface chat-float glass-panel">
+       <div class="chat-surface__head">
+        <span class="assistant-avatar">
+         <svg aria-hidden="true" class="lucide lucide-sparkles lucide-stars" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+          </path>
+          <path d="M20 2v4">
+          </path>
+          <path d="M22 4h-4">
+          </path>
+          <circle cx="4" cy="20" r="2">
+          </circle>
+         </svg>
+        </span>
+        <div>
+         <strong>
+          AI-администратор
+         </strong>
+         <small>
+          Демо · клиника
+         </small>
+        </div>
+        <span class="chat-surface__status">
+         <i>
+         </i>
+         На связи
+        </span>
+       </div>
+       <div aria-label="Сообщения диалога" class="chat-transcript">
+        <div class="chat-message chat-message--patient">
+         <span class="sr-only">
+          Пациент
+         </span>
+         <p>
+          Хочу записаться на УЗИ брюшной полости. Можно завтра?
+         </p>
+        </div>
+        <div class="chat-message chat-message--assistant">
+         <span class="sr-only">
+          AI-администратор
+         </span>
+         <p>
+          Да, исследование проводится и стоит 3 500 ₽. Перед ним потребуется подготовка. В какое время вам удобно?
+         </p>
+        </div>
+        <div class="chat-message chat-message--patient">
+         <span class="sr-only">
+          Пациент
+         </span>
+         <p>
+          После 16:00.
+         </p>
+        </div>
+        <div class="chat-message chat-message--assistant">
+         <span class="sr-only">
+          AI-администратор
+         </span>
+         <p>
+          Передам пожелание администратору. Напишите имя и телефон — он проверит время и подтвердит запись.
+         </p>
+        </div>
+       </div>
+       <div aria-hidden="true" class="chat-composer">
+        <span>
+         Напишите сообщение…
+        </span>
+        <span class="chat-composer__send">
+         <svg aria-hidden="true" class="lucide lucide-arrow-right" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 12h14">
+          </path>
+          <path d="m12 5 7 7-7 7">
+          </path>
+         </svg>
+        </span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="problem-section section-shell section-shell--soft" id="problem">
+    <div class="container">
+     <div class="problem-layout">
+      <div class="problem-copy">
+       <div class="section-title">
+        <p class="eyebrow">
+         01 / ГЛАВНАЯ ПРОБЛЕМА
+        </p>
+        <h2>
+         Клиники привлекают пациентов на сайт, но теряют их на последнем, самом важном этапе
+        </h2>
+        <p class="section-title__description">
+         Пациент уже пришёл на сайт. Дальше ему приходится самому разбираться, что делать.
+        </p>
+       </div>
+      </div>
+      <div class="problem-right">
+       <div class="problem-needs">
+        <div class="problem-need tool-card">
+         <span class="tool-icon">
+          <svg aria-hidden="true" class="lucide lucide-stethoscope" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+           <path d="M11 2v2">
+           </path>
+           <path d="M5 2v2">
+           </path>
+           <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1">
+           </path>
+           <path d="M8 15a6 6 0 0 0 12 0v-3">
+           </path>
+           <circle cx="20" cy="10" r="2">
+           </circle>
+          </svg>
+         </span>
+         <strong>
+          К какому врачу идти?
+         </strong>
+        </div>
+        <div class="problem-need tool-card">
+         <span class="tool-icon">
+          <svg aria-hidden="true" class="lucide lucide-search" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+           <path d="m21 21-4.34-4.34">
+           </path>
+           <circle cx="11" cy="11" r="8">
+           </circle>
+          </svg>
+         </span>
+         <strong>
+          Какая услуга нужна?
+         </strong>
+        </div>
+        <div class="problem-need tool-card">
+         <span class="tool-icon">
+          <svg aria-hidden="true" class="lucide lucide-file-text" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+           <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z">
+           </path>
+           <path d="M14 2v5a1 1 0 0 0 1 1h5">
+           </path>
+           <path d="M10 9H8">
+           </path>
+           <path d="M16 13H8">
+           </path>
+           <path d="M16 17H8">
+           </path>
+          </svg>
+         </span>
+         <strong>
+          Сколько это стоит?
+         </strong>
+        </div>
+        <div class="problem-need tool-card">
+         <span class="tool-icon">
+          <svg aria-hidden="true" class="lucide lucide-clock-3" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+           <circle cx="12" cy="12" r="10">
+           </circle>
+           <path d="M12 6v6h4">
+           </path>
+          </svg>
+         </span>
+         <strong>
+          Есть ли свободное время?
+         </strong>
+        </div>
+        <div class="problem-need tool-card">
+         <span class="tool-icon">
+          <svg aria-hidden="true" class="lucide lucide-hospital" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+           <path d="M12 7v4">
+           </path>
+           <path d="M14 21v-3a2 2 0 0 0-4 0v3">
+           </path>
+           <path d="M14 9h-4">
+           </path>
+           <path d="M18 11h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h2">
+           </path>
+           <path d="M18 21V5a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16">
+           </path>
+          </svg>
+         </span>
+         <strong>
+          Куда обращаться?
+         </strong>
+        </div>
+        <div class="problem-need tool-card">
+         <span class="tool-icon">
+          <svg aria-hidden="true" class="lucide lucide-calendar-days" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+           <path d="M8 2v3">
+           </path>
+           <path d="M16 2v3">
+           </path>
+           <rect height="18" rx="2" width="18" x="3" y="3">
+           </rect>
+           <path d="M3 9h18">
+           </path>
+           <path d="M8 13h.01">
+           </path>
+           <path d="M12 13h.01">
+           </path>
+           <path d="M16 13h.01">
+           </path>
+           <path d="M8 17h.01">
+           </path>
+           <path d="M12 17h.01">
+           </path>
+           <path d="M16 17h.01">
+           </path>
+          </svg>
+         </span>
+         <strong>
+          Как записаться?
+         </strong>
+        </div>
+       </div>
+       <div class="problem-callout">
+        <span class="callout-loss">
+         <svg aria-hidden="true" class="lucide lucide-face-slightly-frowning lucide-frown" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15 10V9">
+          </path>
+          <path d="M9 10V9">
+          </path>
+          <path d="M9 16a5 5 0 016 0">
+          </path>
+          <circle cx="12" cy="12" r="10">
+          </circle>
+         </svg>
+        </span>
+        <span class="problem-callout__text">
+         Часть уже оплаченного трафика не доходит до записи.
+        </span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="tools-section section-shell" id="difference">
+    <div class="container">
+     <div class="section-title">
+      <p class="eyebrow">
+       02 / ПОЧЕМУ САЙТА И ОНЛАЙН-ЗАПИСИ НЕДОСТАТОЧНО
+      </p>
+      <h2>
+       Большинство инструментов требуют, чтобы пациент уже понимал, что ему нужно
+      </h2>
+      <p class="section-title__description">
+       Пациенту предлагают выбрать специальность, услугу или медицинский термин — хотя он пришёл с обычным вопросом.
+      </p>
+     </div>
+     <div class="tools-layout">
+      <div class="tools-grid">
+       <article class="tool-card">
+        <span class="tool-icon">
+         <svg aria-hidden="true" class="lucide lucide-calendar-days" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 2v3">
+          </path>
+          <path d="M16 2v3">
+          </path>
+          <rect height="18" rx="2" width="18" x="3" y="3">
+          </rect>
+          <path d="M3 9h18">
+          </path>
+          <path d="M8 13h.01">
+          </path>
+          <path d="M12 13h.01">
+          </path>
+          <path d="M16 13h.01">
+          </path>
+          <path d="M8 17h.01">
+          </path>
+          <path d="M12 17h.01">
+          </path>
+          <path d="M16 17h.01">
+          </path>
+         </svg>
+        </span>
+        <div>
+         <strong>
+          Онлайн-запись
+         </strong>
+         <p>
+          Просит выбрать специальность
+         </p>
+        </div>
+       </article>
+       <article class="tool-card">
+        <span class="tool-icon">
+         <svg aria-hidden="true" class="lucide lucide-file-text" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z">
+          </path>
+          <path d="M14 2v5a1 1 0 0 0 1 1h5">
+          </path>
+          <path d="M10 9H8">
+          </path>
+          <path d="M16 13H8">
+          </path>
+          <path d="M16 17H8">
+          </path>
+         </svg>
+        </span>
+        <div>
+         <strong>
+          Прайс
+         </strong>
+         <p>
+          Просит выбрать услугу
+         </p>
+        </div>
+       </article>
+       <article class="tool-card">
+        <span class="tool-icon">
+         <svg aria-hidden="true" class="lucide lucide-users" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2">
+          </path>
+          <path d="M16 3.128a4 4 0 0 1 0 7.744">
+          </path>
+          <path d="M22 21v-2a4 4 0 0 0-3-3.87">
+          </path>
+          <circle cx="9" cy="7" r="4">
+          </circle>
+         </svg>
+        </span>
+        <div>
+         <strong>
+          Каталог врачей
+         </strong>
+         <p>
+          Просит выбрать врача
+         </p>
+        </div>
+       </article>
+       <article class="tool-card">
+        <span class="tool-icon">
+         <svg aria-hidden="true" class="lucide lucide-search" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+          <path d="m21 21-4.34-4.34">
+          </path>
+          <circle cx="11" cy="11" r="8">
+          </circle>
+         </svg>
+        </span>
+        <div>
+         <strong>
+          Поиск
+         </strong>
+         <p>
+          Просит ввести термин
+         </p>
+        </div>
+       </article>
+      </div>
+      <div class="patient-question-card">
+       <span class="question-card-label">
+        <span class="online-dot">
+        </span>
+        А пациент просто спрашивает
+       </span>
+       <p>
+        «У меня болит колено после тренировки. К кому записаться?»
+       </p>
+       <div class="question-card-bottom">
+        <span class="patient-mini-avatar">
+         А
+        </span>
+        <span>
+         Обычная формулировка.
+         <br/>
+         <strong>
+          Понятный диалог.
+         </strong>
+        </span>
+        <svg aria-hidden="true" class="lucide lucide-message-circle" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+         <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
+         </path>
+        </svg>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="conversation-section section-shell section-shell--soft" id="conversation">
+    <div class="container conversation-grid">
+     <div aria-label="Демонстрационный чат" class="chat-surface conversation-demo glass-panel">
+      <div class="chat-surface__head">
+       <span class="assistant-avatar">
+        <svg aria-hidden="true" class="lucide lucide-sparkles lucide-stars" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg">
+         <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+         </path>
+         <path d="M20 2v4">
+         </path>
+         <path d="M22 4h-4">
+         </path>
+         <circle cx="4" cy="20" r="2">
+         </circle>
+        </svg>
+       </span>
+       <div>
+        <strong>
+         AI-администратор
+        </strong>
+        <small>
+         Демо · клиника
+        </small>
+       </div>
+       <span class="chat-surface__status">
+        <i>
+        </i>
+        На связи
+       </span>
+      </div>
+      <div aria-label="Сообщения диалога" class="chat-transcript">
+       <div class="chat-message chat-message--patient">
+        <span class="sr-only">
+         Пациент
+        </span>
+        <p>
+         Хочу записаться на УЗИ брюшной полости. Можно завтра?
+        </p>
+       </div>
+       <div class="chat-message chat-message--assistant">
+        <span class="sr-only">
+         AI-администратор
+        </span>
+        <p>
+         Да, исследование проводится и стоит 3 500 ₽. Перед ним потребуется подготовка. В какое время вам удобно?
+        </p>
+       </div>
+       <div class="chat-message chat-message--patient">
+        <span class="sr-only">
+         Пациент
+        </span>
+        <p>
+         После 16:00.
+        </p>
+       </div>
+       <div class="chat-message chat-message--assistant">
+        <span class="sr-only">
+         AI-администратор
+        </span>
+        <p>
+         Передам пожелание администратору. Напишите имя и телефон — он проверит время и подтвердит запись.
+        </p>
+       </div>
+      </div>
+      <div aria-hidden="true" class="chat-composer">
+       <span>
+        Напишите сообщение…
+       </span>
+       <span class="chat-composer__send">
+        <svg aria-hidden="true" class="lucide lucide-arrow-right" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
+         <path d="M5 12h14">
+         </path>
+         <path d="m12 5 7 7-7 7">
+         </path>
+        </svg>
+       </span>
+      </div>
+     </div>
+     <div class="conversation-copy">
+      <div class="section-title">
+       <p class="eyebrow">
+        03 / НОВЫЙ ФОРМАТ
+       </p>
+       <h2>
+        Вместо долгого поиска по сайту — человеческий диалог
+       </h2>
+       <p class="section-title__description">
+        Пациент пишет своими словами. AI-администратор понимает потребность, отвечает на вопросы, помогает выбрать услугу или врача и ведёт к записи.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="value-section section-shell section-shell--tint" id="clinic-value">
+    <div class="container value-layout">
+     <div class="value-statement">
+      <p class="eyebrow">
+       04 / ЧТО ПОКУПАЕТ КЛИНИКА
+      </p>
+      <h2>
+       Больше посетителей сайта становятся
+       <span>
+        пациентами клиники
+       </span>
+      </h2>
+      <p class="value-lead">
+       Вы получаете больше записей из уже существующего спроса — без роста рекламного бюджета и штата регистратуры.
+      </p>
+     </div>
+     <div class="clinic-journey-content">
+      <div class="clinic-journey-panel">
+       <p class="eyebrow">
+        AI-администратор помогает пройти последний участок воронки
+       </p>
+       <div aria-label="Путь пациента: пришёл, спросил, разобрались, предложили, записали" class="clinic-journey">
+        <div class="clinic-journey__step">
+         <span>
+          01
+         </span>
+         <strong>
+          Пришёл
+         </strong>
+         <svg aria-hidden="true" class="lucide lucide-arrow-right" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 12h14">
+          </path>
+          <path d="m12 5 7 7-7 7">
+          </path>
+         </svg>
+        </div>
+        <div class="clinic-journey__step">
+         <span>
+          02
+         </span>
+         <strong>
+          Спросил
+         </strong>
+         <svg aria-hidden="true" class="lucide lucide-arrow-right" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 12h14">
+          </path>
+          <path d="m12 5 7 7-7 7">
+          </path>
+         </svg>
+        </div>
+        <div class="clinic-journey__step clinic-journey__step--active">
+         <span>
+          03
+         </span>
+         <strong>
+          Разобрались
+         </strong>
+         <svg aria-hidden="true" class="lucide lucide-arrow-right" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 12h14">
+          </path>
+          <path d="m12 5 7 7-7 7">
+          </path>
+         </svg>
+        </div>
+        <div class="clinic-journey__step clinic-journey__step--active">
+         <span>
+          04
+         </span>
+         <strong>
+          Предложили
+         </strong>
+         <svg aria-hidden="true" class="lucide lucide-arrow-right" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 12h14">
+          </path>
+          <path d="m12 5 7 7-7 7">
+          </path>
+         </svg>
+        </div>
+        <div class="clinic-journey__step clinic-journey__step--active">
+         <span>
+          05
+         </span>
+         <strong>
+          Записали
+         </strong>
+        </div>
+       </div>
+      </div>
+      <p class="value-support">
+       AI-администратор становится частью маркетинговой инфраструктуры клиники, а не просто виджетом на сайте.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="patient-section section-shell" id="patient">
+    <div class="container patient-grid">
+     <div class="patient-photo-column">
+      <div class="patient-photo-card">
+       <img alt="Пациентка пользуется смартфоном в светлом интерьере клиники" class="patient-photo" decoding="async" height="1536" loading="lazy" sizes="(max-width: 767px) 90vw, 40vw" src="./images/patient-experience.jpg" width="1024"/>
+      </div>
+     </div>
+     <div class="patient-content">
+      <div class="section-title">
+       <p class="eyebrow">
+        05 / ЧТО МЕНЯЕТСЯ ДЛЯ ПАЦИЕНТА
+       </p>
+       <h2>
+        Ответ и возможность записаться — в обычном диалоге
+       </h2>
+       <p class="section-title__description">
+        Пациенту не нужно:
+       </p>
+      </div>
+      <div class="patient-needs">
+       <div class="patient-need tool-card">
+        <span class="tool-icon">
+         <svg aria-hidden="true" class="lucide lucide-earth lucide-globe-2" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21.54 15H17a2 2 0 0 0-2 2v4.54">
+          </path>
+          <path d="M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17">
+          </path>
+          <path d="M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05">
+          </path>
+          <circle cx="12" cy="12" r="10">
+          </circle>
+         </svg>
+        </span>
+        <strong>
+         Изучать сайт
+        </strong>
+       </div>
+       <div class="patient-need tool-card">
+        <span class="tool-icon">
+         <svg aria-hidden="true" class="lucide lucide-search" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+          <path d="m21 21-4.34-4.34">
+          </path>
+          <circle cx="11" cy="11" r="8">
+          </circle>
+         </svg>
+        </span>
+        <strong>
+         Искать прайсы
+        </strong>
+       </div>
+       <div class="patient-need tool-card">
+        <span class="tool-icon">
+         <svg aria-hidden="true" class="lucide lucide-file-text" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z">
+          </path>
+          <path d="M14 2v5a1 1 0 0 0 1 1h5">
+          </path>
+          <path d="M10 9H8">
+          </path>
+          <path d="M16 13H8">
+          </path>
+          <path d="M16 17H8">
+          </path>
+         </svg>
+        </span>
+        <strong>
+         Знать название услуги
+        </strong>
+       </div>
+       <div class="patient-need tool-card">
+        <span class="tool-icon">
+         <svg aria-hidden="true" class="lucide lucide-stethoscope" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11 2v2">
+          </path>
+          <path d="M5 2v2">
+          </path>
+          <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1">
+          </path>
+          <path d="M8 15a6 6 0 0 0 12 0v-3">
+          </path>
+          <circle cx="20" cy="10" r="2">
+          </circle>
+         </svg>
+        </span>
+        <strong>
+         Разбираться в специализациях
+        </strong>
+       </div>
+       <div class="patient-need tool-card">
+        <span class="tool-icon">
+         <svg aria-hidden="true" class="lucide lucide-clock-3" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="10">
+          </circle>
+          <path d="M12 6v6h4">
+          </path>
+         </svg>
+        </span>
+        <strong>
+         Ждать ответа по телефону
+        </strong>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="business-section section-shell section-shell--soft" id="benefits">
+    <div class="container">
+     <div class="section-title">
+      <p class="eyebrow">
+       06 / БИЗНЕС-ЗАДАЧИ
+      </p>
+      <h2>
+       Пять задач, которые AI-администратор решает для клиники
+      </h2>
+      <p class="section-title__description">
+       От помощи с выбором до передачи сложного обращения администратору вместе с контекстом диалога.
+      </p>
+     </div>
+     <div class="business-task-grid">
+      <article class="business-task-card">
+       <span class="business-task-card__number">
+        01
+       </span>
+       <span class="business-task-card__icon">
+        <svg aria-hidden="true" class="lucide lucide-trending-up" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+         <path d="M16 7h6v6">
+         </path>
+         <path d="m22 7-8.5 8.5-5-5L2 17">
+         </path>
+        </svg>
+       </span>
+       <h3>
+        Больше записей из существующего трафика
+       </h3>
+       <p>
+        Клиника лучше конвертирует посетителей, которых уже привела на сайт.
+       </p>
+      </article>
+      <article class="business-task-card">
+       <span class="business-task-card__number">
+        02
+       </span>
+       <span class="business-task-card__icon">
+        <svg aria-hidden="true" class="lucide lucide-clock-3" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+         <circle cx="12" cy="12" r="10">
+         </circle>
+         <path d="M12 6v6h4">
+         </path>
+        </svg>
+       </span>
+       <h3>
+        Приём обращений 24/7
+       </h3>
+       <p>
+        Пациенты не теряются ночью, в выходные и в часы пик.
+       </p>
+      </article>
+      <article class="business-task-card">
+       <span class="business-task-card__number">
+        03
+       </span>
+       <span class="business-task-card__icon">
+        <svg aria-hidden="true" class="lucide lucide-route" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+         <circle cx="6" cy="19" r="3">
+         </circle>
+         <path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15">
+         </path>
+         <circle cx="18" cy="5" r="3">
+         </circle>
+        </svg>
+       </span>
+       <h3>
+        Навигация пациента
+       </h3>
+       <p>
+        AI помогает понять, какая услуга, врач или направление нужны.
+       </p>
+      </article>
+      <article class="business-task-card">
+       <span class="business-task-card__number">
+        04
+       </span>
+       <span class="business-task-card__icon">
+        <svg aria-hidden="true" class="lucide lucide-users" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+         <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2">
+         </path>
+         <path d="M16 3.128a4 4 0 0 1 0 7.744">
+         </path>
+         <path d="M22 21v-2a4 4 0 0 0-3-3.87">
+         </path>
+         <circle cx="9" cy="7" r="4">
+         </circle>
+        </svg>
+       </span>
+       <h3>
+        Разгрузка администраторов
+       </h3>
+       <p>
+        Типовые вопросы закрываются автоматически.
+       </p>
+      </article>
+      <article class="business-task-card">
+       <span class="business-task-card__number">
+        05
+       </span>
+       <span class="business-task-card__icon">
+        <svg aria-hidden="true" class="lucide lucide-circle-question-mark lucide-help-circle lucide-circle-help" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+         <circle cx="12" cy="12" r="10">
+         </circle>
+         <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3">
+         </path>
+         <path d="M12 17h.01">
+         </path>
+        </svg>
+       </span>
+       <h3>
+        Сложные обращения не теряются
+       </h3>
+       <p>
+        Если нужен сотрудник, AI собирает контактные данные и передаёт контекст диалога.
+       </p>
+      </article>
+     </div>
+     <p class="business-transfer-note">
+      <span>
+       <svg aria-hidden="true" class="lucide lucide-message-circle" fill="none" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
+        </path>
+       </svg>
+      </span>
+      <span>
+       <strong>
+        Если нужно участие человека
+       </strong>
+       — AI собирает контакты и передаёт администратору контекст переписки.
+      </span>
+     </p>
+    </div>
+   </section>
+   <section class="process-section section-shell section-shell--dark" id="how-it-works">
+    <div class="container">
+     <div class="process-header">
+      <div class="section-title">
+       <p class="eyebrow">
+        07 / КАК ЭТО РАБОТАЕТ
+       </p>
+       <h2>
+        От первого вопроса до результата в аналитике
+       </h2>
+       <p class="section-title__description">
+        Последовательность действий AI-администратора в чате клиники.
+       </p>
+      </div>
+      <div class="process-live">
+       <span class="online-dot">
+       </span>
+       Путь диалога
+      </div>
+     </div>
+     <div class="process-steps process-steps--eight">
+      <article class="process-step">
+       <span class="process-step__number">
+        01
+       </span>
+       <span class="process-step__icon">
+        <svg aria-hidden="true" class="lucide lucide-message-circle" fill="none" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg">
+         <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
+         </path>
+        </svg>
+       </span>
+       <h3>
+        Вопрос
+       </h3>
+       <p>
+        Пациент задаёт вопрос в чате на сайте клиники.
+       </p>
+      </article>
+      <article class="process-step process-step--focus">
+       <span class="process-step__number">
+        02
+       </span>
+       <span class="process-step__icon">
+        <svg aria-hidden="true" class="lucide lucide-search" fill="none" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg">
+         <path d="m21 21-4.34-4.34">
+         </path>
+         <circle cx="11" cy="11" r="8">
+         </circle>
+        </svg>
+       </span>
+       <h3>
+        Намерение
+       </h3>
+       <p>
+        AI-администратор определяет, что нужно человеку.
+       </p>
+      </article>
+      <article class="process-step">
+       <span class="process-step__number">
+        03
+       </span>
+       <span class="process-step__icon">
+        <svg aria-hidden="true" class="lucide lucide-circle-question-mark lucide-help-circle lucide-circle-help" fill="none" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg">
+         <circle cx="12" cy="12" r="10">
+         </circle>
+         <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3">
+         </path>
+         <path d="M12 17h.01">
+         </path>
+        </svg>
+       </span>
+       <h3>
+        Уточнение
+       </h3>
+       <p>
+        Задаёт короткие вопросы, если нужны детали.
+       </p>
+      </article>
+      <article class="process-step">
+       <span class="process-step__number">
+        04
+       </span>
+       <span class="process-step__icon">
+        <svg aria-hidden="true" class="lucide lucide-route" fill="none" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg">
+         <circle cx="6" cy="19" r="3">
+         </circle>
+         <path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15">
+         </path>
+         <circle cx="18" cy="5" r="3">
+         </circle>
+        </svg>
+       </span>
+       <h3>
+        Маршрут
+       </h3>
+       <p>
+        Выстраивает подходящий путь пациента.
+       </p>
+      </article>
+      <article class="process-step process-step--focus">
+       <span class="process-step__number">
+        05
+       </span>
+       <span class="process-step__icon">
+        <svg aria-hidden="true" class="lucide lucide-database" fill="none" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg">
+         <ellipse cx="12" cy="5" rx="9" ry="3">
+         </ellipse>
+         <path d="M3 5V19A9 3 0 0 0 21 19V5">
+         </path>
+         <path d="M3 12A9 3 0 0 0 21 12">
+         </path>
+        </svg>
+       </span>
+       <h3>
+        Поиск
+       </h3>
+       <p>
+        Ищет информацию в материалах клиники.
+       </p>
+      </article>
+      <article class="process-step">
+       <span class="process-step__number">
+        06
+       </span>
+       <span class="process-step__icon">
+        <svg aria-hidden="true" class="lucide lucide-stethoscope" fill="none" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg">
+         <path d="M11 2v2">
+         </path>
+         <path d="M5 2v2">
+         </path>
+         <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1">
+         </path>
+         <path d="M8 15a6 6 0 0 0 12 0v-3">
+         </path>
+         <circle cx="20" cy="10" r="2">
+         </circle>
+        </svg>
+       </span>
+       <h3>
+        Подбор
+       </h3>
+       <p>
+        Предлагает услугу, направление, врача или филиал.
+       </p>
+      </article>
+      <article class="process-step process-step--focus">
+       <span class="process-step__number">
+        07
+       </span>
+       <span class="process-step__icon">
+        <svg aria-hidden="true" class="lucide lucide-calendar-days" fill="none" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg">
+         <path d="M8 2v3">
+         </path>
+         <path d="M16 2v3">
+         </path>
+         <rect height="18" rx="2" width="18" x="3" y="3">
+         </rect>
+         <path d="M3 9h18">
+         </path>
+         <path d="M8 13h.01">
+         </path>
+         <path d="M12 13h.01">
+         </path>
+         <path d="M16 13h.01">
+         </path>
+         <path d="M8 17h.01">
+         </path>
+         <path d="M12 17h.01">
+         </path>
+         <path d="M16 17h.01">
+         </path>
+        </svg>
+       </span>
+       <h3>
+        Следующий шаг
+       </h3>
+       <p>
+        Отвечает на вопросы и помогает перейти к записи.
+       </p>
+      </article>
+      <article class="process-step">
+       <span class="process-step__number">
+        08
+       </span>
+       <span class="process-step__icon">
+        <svg aria-hidden="true" class="lucide lucide-chart-column lucide-bar-chart-3" fill="none" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg">
+         <path d="M3 3v16a2 2 0 0 0 2 2h16">
+         </path>
+         <path d="M18 17V9">
+         </path>
+         <path d="M13 17V5">
+         </path>
+         <path d="M8 17v-3">
+         </path>
+        </svg>
+       </span>
+       <h3>
+        Аналитика
+       </h3>
+       <p>
+        Фиксирует результат диалога.
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="dialogues-section section-shell" id="dialogues">
+    <div class="container dialogue-layout">
+     <div aria-label="Примеры диалогов" class="dialogue-showcase" role="group">
+      <input aria-label="Поиск услуги" checked="" class="scenario-radio" id="scenario-service" name="dialogue-scenario" type="radio"/>
+      <input aria-label="Подбор врача" class="scenario-radio" id="scenario-doctor" name="dialogue-scenario" type="radio"/>
+      <input aria-label="Обращение ночью" class="scenario-radio" id="scenario-after-hours" name="dialogue-scenario" type="radio"/>
+      <input aria-label="Проверка родинки" class="scenario-radio" id="scenario-mole" name="dialogue-scenario" type="radio"/>
+      <input aria-label="Адрес и маршрут" class="scenario-radio" id="scenario-location" name="dialogue-scenario" type="radio"/>
+      <input aria-label="КТ и контраст" class="scenario-radio" id="scenario-ct" name="dialogue-scenario" type="radio"/>
+      <div class="dialogue-copy">
+       <div class="section-title">
+        <p class="eyebrow">
+         08 / ПРИМЕРЫ ДИАЛОГОВ
+        </p>
+        <h2>
+         От вопроса пациента к записи в клинику
+        </h2>
+        <p class="section-title__description">
+         Шесть сценариев показывают, как AI отвечает на вопросы, помогает сориентироваться и передаёт запрос администратору.
+        </p>
+       </div>
+       <label class="scenario-select-label" for="scenario-select">Выберите пример диалога</label>
+       <select class="scenario-select" id="scenario-select">
+        <option value="scenario-service">01 · Поиск услуги</option>
+        <option value="scenario-doctor">02 · Подбор врача</option>
+        <option value="scenario-after-hours">03 · Обращение ночью</option>
+        <option value="scenario-mole">04 · Проверка родинки</option>
+        <option value="scenario-location">05 · Адрес и маршрут</option>
+        <option value="scenario-ct">06 · КТ и контраст</option>
+       </select>
+       <div aria-label="Выбрать пример диалога" class="scenario-list" role="group">
+        <label class="scenario-tab scenario-tab--service" for="scenario-service">
+         <span class="scenario-tab__number">
+          01
+         </span>
+         <span>
+          Поиск услуги
+         </span>
+        </label>
+        <label class="scenario-tab scenario-tab--doctor" for="scenario-doctor">
+         <span class="scenario-tab__number">
+          02
+         </span>
+         <span>
+          Подбор врача
+         </span>
+        </label>
+        <label class="scenario-tab scenario-tab--after-hours" for="scenario-after-hours">
+         <span class="scenario-tab__number">
+          03
+         </span>
+         <span>
+          Обращение ночью
+         </span>
+        </label>
+        <label class="scenario-tab scenario-tab--mole" for="scenario-mole">
+         <span class="scenario-tab__number">
+          04
+         </span>
+         <span>
+          Проверка родинки
+         </span>
+        </label>
+        <label class="scenario-tab scenario-tab--location" for="scenario-location">
+         <span class="scenario-tab__number">
+          05
+         </span>
+         <span>
+          Адрес и маршрут
+         </span>
+        </label>
+        <label class="scenario-tab scenario-tab--ct" for="scenario-ct">
+         <span class="scenario-tab__number">
+          06
+         </span>
+         <span>
+          КТ и контраст
+         </span>
+        </label>
+       </div>
+      </div>
+      <div aria-label="Сценарий: Поиск услуги" class="scenario-content scenario-content--service" role="tabpanel">
+       <div aria-label="Демонстрационный чат" class="chat-surface scenario-chat">
+        <div class="chat-surface__head">
+         <span class="assistant-avatar">
+          <svg aria-hidden="true" class="lucide lucide-sparkles lucide-stars" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg">
+           <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+           </path>
+           <path d="M20 2v4">
+           </path>
+           <path d="M22 4h-4">
+           </path>
+           <circle cx="4" cy="20" r="2">
+           </circle>
+          </svg>
+         </span>
+         <div>
+          <strong>
+           AI-администратор
+          </strong>
+          <small>
+           Демо · клиника
+          </small>
+         </div>
+         <span class="chat-surface__status">
+          <i>
+          </i>
+          На связи
+         </span>
+        </div>
+        <div aria-label="Сообщения диалога" class="chat-transcript chat-transcript--scrollable">
+         <div class="chat-message chat-message--patient">
+          <span class="sr-only">
+           Пациент
+          </span>
+          <p>
+           У вас делают МРТ?
+          </p>
+         </div>
+         <div class="chat-message chat-message--assistant">
+          <span class="sr-only">
+           AI-администратор
+          </span>
+          <p>
+           Да, в клинике проводится МРТ различных зон. Подскажите, какую область вам нужно обследовать?
+          </p>
+         </div>
+         <div class="chat-message chat-message--patient">
+          <span class="sr-only">
+           Пациент
+          </span>
+          <p>
+           МРТ ноги. Болит в районе пятки.
+          </p>
+         </div>
+         <div class="chat-message chat-message--assistant">
+          <span class="sr-only">
+           AI-администратор
+          </span>
+          <p>
+           Проводим МРТ коленного сустава, голени, голеностопного сустава и стопы. В вашем случае может подойти исследование голеностопного сустава или стопы — точную область лучше определить по локализации боли и назначению врача.
+          </p>
+         </div>
+         <div class="chat-message chat-message--assistant">
+          <span class="sr-only">
+           AI-администратор
+          </span>
+          <p>
+           Стоимость исследования — от 7 500 ₽. Заключение можно получить после исследования или забрать позже. Когда вам было бы удобно пройти обследование?
+          </p>
+         </div>
+         <div class="chat-message chat-message--patient">
+          <span class="sr-only">
+           Пациент
+          </span>
+          <p>
+           Завтра в 12 часов.
+          </p>
+         </div>
+         <div class="chat-message chat-message--assistant">
+          <span class="sr-only">
+           AI-администратор
+          </span>
+          <p>
+           Передам пожелание по времени администратору, чтобы он проверил возможность записи. Напишите, пожалуйста, ваше имя и номер телефона.
+          </p>
+         </div>
+        </div>
+        <div aria-hidden="true" class="chat-composer">
+         <span>
+          Напишите сообщение…
+         </span>
+         <span class="chat-composer__send">
+          <svg aria-hidden="true" class="lucide lucide-arrow-right" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
+           <path d="M5 12h14">
+           </path>
+           <path d="m12 5 7 7-7 7">
+           </path>
+          </svg>
+         </span>
+        </div>
+       </div>
+      </div>
+      <div aria-label="Сценарий: Подбор врача" class="scenario-content scenario-content--doctor" role="tabpanel">
+       <div aria-label="Демонстрационный чат" class="chat-surface scenario-chat">
+        <div class="chat-surface__head">
+         <span class="assistant-avatar">
+          <svg aria-hidden="true" class="lucide lucide-sparkles lucide-stars" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg">
+           <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+           </path>
+           <path d="M20 2v4">
+           </path>
+           <path d="M22 4h-4">
+           </path>
+           <circle cx="4" cy="20" r="2">
+           </circle>
+          </svg>
+         </span>
+         <div>
+          <strong>
+           AI-администратор
+          </strong>
+          <small>
+           Демо · клиника
+          </small>
+         </div>
+         <span class="chat-surface__status">
+          <i>
+          </i>
+          На связи
+         </span>
+        </div>
+        <div aria-label="Сообщения диалога" class="chat-transcript chat-transcript--scrollable">
+         <div class="chat-message chat-message--patient">
+          <span class="sr-only">
+           Пациент
+          </span>
+          <p>
+           Здравствуйте. У меня уже неделю болит голова. К кому мне обратиться?
+          </p>
+         </div>
+         <div class="chat-message chat-message--assistant">
+          <span class="sr-only">
+           AI-администратор
+          </span>
+          <p>
+           Здравствуйте. С такой жалобой обычно можно начать с терапевта или невролога. В клинике принимают оба специалиста. Врач проведёт осмотр и определит, нужны ли дополнительные обследования. Подсказать стоимость консультаций?
+          </p>
+         </div>
+         <div class="chat-message chat-message--patient">
+          <span class="sr-only">
+           Пациент
+          </span>
+          <p>
+           Да.
+          </p>
+         </div>
+         <div class="chat-message chat-message--assistant">
+          <span class="sr-only">
+           AI-администратор
+          </span>
+          <p>
+           Первичная консультация терапевта стоит 2 500 ₽, невролога — 3 200 ₽. Если врач назначит МРТ головы, стоимость исследования составляет 9 000 ₽. Хотите оставить заявку на приём к одному из специалистов?
+          </p>
+         </div>
+         <div class="chat-message chat-message--patient">
+          <span class="sr-only">
+           Пациент
+          </span>
+          <p>
+           Давайте к неврологу.
+          </p>
+         </div>
+         <div class="chat-message chat-message--assistant">
+          <span class="sr-only">
+           AI-администратор
+          </span>
+          <p>
+           Хорошо. Напишите, пожалуйста, ваше имя, номер телефона и когда вам удобнее прийти. Администратор свяжется с вами и подтвердит запись.
+          </p>
+         </div>
+        </div>
+        <div aria-hidden="true" class="chat-composer">
+         <span>
+          Напишите сообщение…
+         </span>
+         <span class="chat-composer__send">
+          <svg aria-hidden="true" class="lucide lucide-arrow-right" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
+           <path d="M5 12h14">
+           </path>
+           <path d="m12 5 7 7-7 7">
+           </path>
+          </svg>
+         </span>
+        </div>
+       </div>
+      </div>
+      <div aria-label="Сценарий: Обращение ночью" class="scenario-content scenario-content--after-hours" role="tabpanel">
+       <div aria-label="Демонстрационный чат" class="chat-surface scenario-chat">
+        <div class="chat-surface__head">
+         <span class="assistant-avatar">
+          <svg aria-hidden="true" class="lucide lucide-sparkles lucide-stars" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg">
+           <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+           </path>
+           <path d="M20 2v4">
+           </path>
+           <path d="M22 4h-4">
+           </path>
+           <circle cx="4" cy="20" r="2">
+           </circle>
+          </svg>
+         </span>
+         <div>
+          <strong>
+           AI-администратор
+          </strong>
+          <small>
+           Демо · клиника
+          </small>
+         </div>
+         <span class="chat-surface__status">
+          <i>
+          </i>
+          На связи
+         </span>
+        </div>
+        <div aria-label="Сообщения диалога" class="chat-transcript chat-transcript--scrollable">
+         <div class="chat-message chat-message--patient">
+          <span class="sr-only">
+           Пациент
+          </span>
+          <p>
+           Здравствуйте. Хочу записаться на УЗИ брюшной полости. Можно завтра?
+          </p>
+         </div>
+         <div class="chat-message chat-message--assistant">
+          <span class="sr-only">
+           AI-администратор
+          </span>
+          <p>
+           Здравствуйте. Да, в клинике проводится УЗИ брюшной полости. Стоимость исследования — 3 500 ₽. Перед исследованием потребуется подготовка, я могу рассказать о ней подробнее. В какое время завтра вам удобно приехать?
+          </p>
+         </div>
+         <div class="chat-message chat-message--patient">
+          <span class="sr-only">
+           Пациент
+          </span>
+          <p>
+           После 16:00.
+          </p>
+         </div>
+         <div class="chat-message chat-message--assistant">
+          <span class="sr-only">
+           AI-администратор
+          </span>
+          <p>
+           Хорошо. Напишите, пожалуйста, ваше имя и номер телефона. Я передам заявку с пожеланием по времени, и администратор подтвердит запись.
+          </p>
+         </div>
+        </div>
+        <div aria-hidden="true" class="chat-composer">
+         <span>
+          Напишите сообщение…
+         </span>
+         <span class="chat-composer__send">
+          <svg aria-hidden="true" class="lucide lucide-arrow-right" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
+           <path d="M5 12h14">
+           </path>
+           <path d="m12 5 7 7-7 7">
+           </path>
+          </svg>
+         </span>
+        </div>
+       </div>
+      </div>
+      <div aria-label="Сценарий: Проверка родинки" class="scenario-content scenario-content--mole" role="tabpanel">
+       <div aria-label="Демонстрационный чат" class="chat-surface scenario-chat">
+        <div class="chat-surface__head">
+         <span class="assistant-avatar">
+          <svg aria-hidden="true" class="lucide lucide-sparkles lucide-stars" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg">
+           <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+           </path>
+           <path d="M20 2v4">
+           </path>
+           <path d="M22 4h-4">
+           </path>
+           <circle cx="4" cy="20" r="2">
+           </circle>
+          </svg>
+         </span>
+         <div>
+          <strong>
+           AI-администратор
+          </strong>
+          <small>
+           Демо · клиника
+          </small>
+         </div>
+         <span class="chat-surface__status">
+          <i>
+          </i>
+          На связи
+         </span>
+        </div>
+        <div aria-label="Сообщения диалога" class="chat-transcript chat-transcript--scrollable">
+         <div class="chat-message chat-message--patient">
+          <span class="sr-only">
+           Пациент
+          </span>
+          <p>
+           Здравствуйте. Хочу проверить родинку, к кому мне обратиться?
+          </p>
+         </div>
+         <div class="chat-message chat-message--assistant">
+          <span class="sr-only">
+           AI-администратор
+          </span>
+          <p>
+           Здравствуйте. Для проверки родинки обычно обращаются к дерматологу. Врач осмотрит образование и при необходимости проведёт дерматоскопию — исследование, которое позволяет более подробно оценить родинку. Подсказать стоимость консультации и дерматоскопии?
+          </p>
+         </div>
+         <div class="chat-message chat-message--patient">
+          <span class="sr-only">
+           Пациент
+          </span>
+          <p>
+           Да.
+          </p>
+         </div>
+         <div class="chat-message chat-message--assistant">
+          <span class="sr-only">
+           AI-администратор
+          </span>
+          <p>
+           Первичная консультация дерматолога стоит 2 800 ₽, дерматоскопия — 1 500 ₽. Если по результатам осмотра потребуется удаление, врач расскажет о возможных вариантах и необходимости дальнейшего исследования материала. Хотите оставить заявку на приём?
+          </p>
+         </div>
+         <div class="chat-message chat-message--patient">
+          <span class="sr-only">
+           Пациент
+          </span>
+          <p>
+           Да, желательно на этой неделе.
+          </p>
+         </div>
+         <div class="chat-message chat-message--assistant">
+          <span class="sr-only">
+           AI-администратор
+          </span>
+          <p>
+           Хорошо. Напишите, пожалуйста, ваше имя и номер телефона. Я передам заявку администратору с пометкой, что вам удобно прийти на этой неделе, и он свяжется с вами для подтверждения записи.
+          </p>
+         </div>
+        </div>
+        <div aria-hidden="true" class="chat-composer">
+         <span>
+          Напишите сообщение…
+         </span>
+         <span class="chat-composer__send">
+          <svg aria-hidden="true" class="lucide lucide-arrow-right" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
+           <path d="M5 12h14">
+           </path>
+           <path d="m12 5 7 7-7 7">
+           </path>
+          </svg>
+         </span>
+        </div>
+       </div>
+      </div>
+      <div aria-label="Сценарий: Адрес и маршрут" class="scenario-content scenario-content--location" role="tabpanel">
+       <div aria-label="Демонстрационный чат" class="chat-surface scenario-chat">
+        <div class="chat-surface__head">
+         <span class="assistant-avatar">
+          <svg aria-hidden="true" class="lucide lucide-sparkles lucide-stars" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg">
+           <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+           </path>
+           <path d="M20 2v4">
+           </path>
+           <path d="M22 4h-4">
+           </path>
+           <circle cx="4" cy="20" r="2">
+           </circle>
+          </svg>
+         </span>
+         <div>
+          <strong>
+           AI-администратор
+          </strong>
+          <small>
+           Демо · клиника
+          </small>
+         </div>
+         <span class="chat-surface__status">
+          <i>
+          </i>
+          На связи
+         </span>
+        </div>
+        <div aria-label="Сообщения диалога" class="chat-transcript chat-transcript--scrollable">
+         <div class="chat-message chat-message--patient">
+          <span class="sr-only">
+           Пациент
+          </span>
+          <p>
+           Подскажите, пожалуйста, где находится клиника?
+          </p>
+         </div>
+         <div class="chat-message chat-message--assistant">
+          <span class="sr-only">
+           AI-администратор
+          </span>
+          <p>
+           В демонстрационном примере адрес клиники — ул. Примерная, 15. Ближайшая станция метро — «Октябрьская». Хотите, расскажу, как пройти от метро?
+          </p>
+         </div>
+         <div class="chat-message chat-message--patient">
+          <span class="sr-only">
+           Пациент
+          </span>
+          <p>
+           Да.
+          </p>
+         </div>
+         <div class="chat-message chat-message--assistant">
+          <span class="sr-only">
+           AI-администратор
+          </span>
+          <p>
+           После выхода из метро идите прямо по улице Примерной около 5–7 минут. Клиника будет по правой стороне, вход со двора рядом с аптекой. Рядом есть парковка.
+          </p>
+         </div>
+         <div class="chat-message chat-message--patient">
+          <span class="sr-only">
+           Пациент
+          </span>
+          <p>
+           А если я первый раз, сложно найти вход?
+          </p>
+         </div>
+         <div class="chat-message chat-message--assistant">
+          <span class="sr-only">
+           AI-администратор
+          </span>
+          <p>
+           В примере вход заметный: на здании есть вывеска клиники. Могу отправить более подробный ориентир и схему прохода от метро.
+          </p>
+         </div>
+        </div>
+        <div aria-hidden="true" class="chat-composer">
+         <span>
+          Напишите сообщение…
+         </span>
+         <span class="chat-composer__send">
+          <svg aria-hidden="true" class="lucide lucide-arrow-right" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
+           <path d="M5 12h14">
+           </path>
+           <path d="m12 5 7 7-7 7">
+           </path>
+          </svg>
+         </span>
+        </div>
+       </div>
+      </div>
+      <div aria-label="Сценарий: КТ и контраст" class="scenario-content scenario-content--ct" role="tabpanel">
+       <div aria-label="Демонстрационный чат" class="chat-surface scenario-chat">
+        <div class="chat-surface__head">
+         <span class="assistant-avatar">
+          <svg aria-hidden="true" class="lucide lucide-sparkles lucide-stars" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg">
+           <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+           </path>
+           <path d="M20 2v4">
+           </path>
+           <path d="M22 4h-4">
+           </path>
+           <circle cx="4" cy="20" r="2">
+           </circle>
+          </svg>
+         </span>
+         <div>
+          <strong>
+           AI-администратор
+          </strong>
+          <small>
+           Демо · клиника
+          </small>
+         </div>
+         <span class="chat-surface__status">
+          <i>
+          </i>
+          На связи
+         </span>
+        </div>
+        <div aria-label="Сообщения диалога" class="chat-transcript chat-transcript--scrollable">
+         <div class="chat-message chat-message--patient">
+          <span class="sr-only">
+           Пациент
+          </span>
+          <p>
+           Здравствуйте. У вас можно сделать КТ?
+          </p>
+         </div>
+         <div class="chat-message chat-message--assistant">
+          <span class="sr-only">
+           AI-администратор
+          </span>
+          <p>
+           Здравствуйте. Да, в клинике проводится КТ различных областей. Подскажите, какую именно область нужно обследовать?
+          </p>
+         </div>
+         <div class="chat-message chat-message--patient">
+          <span class="sr-only">
+           Пациент
+          </span>
+          <p>
+           Брюшную полость.
+          </p>
+         </div>
+         <div class="chat-message chat-message--assistant">
+          <span class="sr-only">
+           AI-администратор
+          </span>
+          <p>
+           КТ брюшной полости проводится. Исследование можно выполнить без контраста или с контрастированием — это зависит от цели обследования и назначения врача. КТ без контраста стоит 6 500 ₽.
+          </p>
+         </div>
+         <div class="chat-message chat-message--patient">
+          <span class="sr-only">
+           Пациент
+          </span>
+          <p>
+           А с контрастом сколько?
+          </p>
+         </div>
+         <div class="chat-message chat-message--assistant">
+          <span class="sr-only">
+           AI-администратор
+          </span>
+          <p>
+           В демонстрационном примере КТ с контрастированием стоит 11 500 ₽. Перед исследованием могут потребоваться дополнительные анализы, например креатинин. Могу рассказать, как подготовиться. Хотите оставить заявку на запись?
+          </p>
+         </div>
+         <div class="chat-message chat-message--patient">
+          <span class="sr-only">
+           Пациент
+          </span>
+          <p>
+           Да, желательно завтра после обеда.
+          </p>
+         </div>
+        </div>
+        <div aria-hidden="true" class="chat-composer">
+         <span>
+          Напишите сообщение…
+         </span>
+         <span class="chat-composer__send">
+          <svg aria-hidden="true" class="lucide lucide-arrow-right" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
+           <path d="M5 12h14">
+           </path>
+           <path d="m12 5 7 7-7 7">
+           </path>
+          </svg>
+         </span>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="analytics-section section-shell section-shell--tint" id="analytics">
+    <div class="container analytics-grid">
+     <div class="analytics-copy">
+      <div class="section-title">
+       <p class="eyebrow">
+        09 / АНАЛИТИКА
+       </p>
+       <h2>
+        Инструмент роста клиники
+       </h2>
+       <p class="section-title__description">
+        Клиника начинает видеть, что хотели пациенты, которые не записались.
+       </p>
+      </div>
+      <ul class="analytics-insights">
+       <li>
+        Какие вопросы задают чаще всего
+       </li>
+       <li>
+        Какие услуги ищут
+       </li>
+       <li>
+        Где пациенты не находят информацию
+       </li>
+       <li>
+        Сколько обращений было ночью
+       </li>
+       <li>
+        Какие запросы AI не смог закрыть
+       </li>
+       <li>
+        Какие услуги есть смысл добавить или лучше упаковать на сайте
+       </li>
+      </ul>
+      <div class="analytics-note">
+       <span>
+        <svg aria-hidden="true" class="lucide lucide-activity" fill="none" height="19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg">
+         <path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2">
+         </path>
+        </svg>
+       </span>
+       <p>
+        Это не просто история чатов.
+        <br/>
+        <strong>
+         Это аналитика реальных потребностей ваших пациентов.
+        </strong>
+       </p>
+      </div>
+     </div>
+     <div class="analytics-dashboard">
+      <div class="dashboard-head">
+       <div>
+        <span class="dashboard-title">
+         Обзор диалогов
+        </span>
+        <small>
+         Панель аналитики · демонстрация
+        </small>
+       </div>
+       <span class="demo-data-pill">
+        <i>
+        </i>
+        Демо-данные
+       </span>
+      </div>
+      <div class="dashboard-metrics">
+       <div>
+        <small>
+         Диалоги
+        </small>
+        <strong>
+         1 248
+        </strong>
+        <span>
+         <svg aria-hidden="true" class="lucide lucide-message-circle" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
+          </path>
+         </svg>
+         за период
+        </span>
+       </div>
+       <div>
+        <small>
+         Переход к записи
+        </small>
+        <strong>
+         18
+         <!-- -->
+         %
+        </strong>
+        <span>
+         <svg aria-hidden="true" class="lucide lucide-calendar-days" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 2v3">
+          </path>
+          <path d="M16 2v3">
+          </path>
+          <rect height="18" rx="2" width="18" x="3" y="3">
+          </rect>
+          <path d="M3 9h18">
+          </path>
+          <path d="M8 13h.01">
+          </path>
+          <path d="M12 13h.01">
+          </path>
+          <path d="M16 13h.01">
+          </path>
+          <path d="M8 17h.01">
+          </path>
+          <path d="M12 17h.01">
+          </path>
+          <path d="M16 17h.01">
+          </path>
+         </svg>
+         условный пример
+        </span>
+       </div>
+       <div>
+        <small>
+         Без ответа
+        </small>
+        <strong>
+         43
+        </strong>
+        <span>
+         <svg aria-hidden="true" class="lucide lucide-circle-question-mark lucide-help-circle lucide-circle-help" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="10">
+          </circle>
+          <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3">
+          </path>
+          <path d="M12 17h.01">
+          </path>
+         </svg>
+         требует внимания
+        </span>
+       </div>
+      </div>
+      <div class="dashboard-chart-card">
+       <div class="chart-title">
+        <span>
+         Динамика обращений
+        </span>
+        <small>
+         ПРИМЕР
+        </small>
+       </div>
+       <div class="chart-area">
+        <div class="chart-y-labels">
+         <span>
+          80
+         </span>
+         <span>
+          60
+         </span>
+         <span>
+          40
+         </span>
+         <span>
+          20
+         </span>
+        </div>
+        <div class="chart-bars">
+         <div class="chart-bar-wrap">
+          <span class="chart-bar" style="height:34%">
+          </span>
+          <small>
+           Пн
+          </small>
+         </div>
+         <div class="chart-bar-wrap">
+          <span class="chart-bar" style="height:47%">
+          </span>
+          <small>
+           Вт
+          </small>
+         </div>
+         <div class="chart-bar-wrap">
+          <span class="chart-bar" style="height:41%">
+          </span>
+          <small>
+           Ср
+          </small>
+         </div>
+         <div class="chart-bar-wrap">
+          <span class="chart-bar" style="height:62%">
+          </span>
+          <small>
+           Чт
+          </small>
+         </div>
+         <div class="chart-bar-wrap">
+          <span class="chart-bar" style="height:55%">
+          </span>
+          <small>
+           Пт
+          </small>
+         </div>
+         <div class="chart-bar-wrap">
+          <span class="chart-bar chart-bar--highlight" style="height:74%">
+          </span>
+          <small>
+           Сб
+          </small>
+         </div>
+         <div class="chart-bar-wrap">
+          <span class="chart-bar" style="height:68%">
+          </span>
+          <small>
+           Вс
+          </small>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="dashboard-bottom">
+       <div class="topic-card">
+        <small>
+         Популярные темы · пример
+        </small>
+        <div>
+         <span class="topic-chip topic-chip--accent">
+          МРТ
+         </span>
+         <span class="topic-chip">
+          Гастроскопия
+         </span>
+         <span class="topic-chip">
+          Невролог
+         </span>
+         <span class="topic-chip">
+          Цена
+         </span>
+         <span class="topic-chip">
+          Подготовка
+         </span>
+         <span class="topic-chip">
+          Запись
+         </span>
+         <span class="topic-chip">
+          Парковка
+         </span>
+        </div>
+       </div>
+       <div class="unanswered-card">
+        <span class="unanswered-icon">
+         <svg aria-hidden="true" class="lucide lucide-circle-question-mark lucide-help-circle lucide-circle-help" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="10">
+          </circle>
+          <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3">
+          </path>
+          <path d="M12 17h.01">
+          </path>
+         </svg>
+        </span>
+        <div>
+         <small>
+          Что спрашивают
+         </small>
+         <strong>
+          Темы без ответа
+         </strong>
+         <span>
+          Список для разбора
+         </span>
+        </div>
+        <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+         <path d="M7 7h10v10">
+         </path>
+         <path d="M7 17 17 7">
+         </path>
+        </svg>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="setup-section section-shell section-shell--soft" id="setup">
+    <div class="container setup-grid">
+     <div class="setup-copy">
+      <div class="section-title">
+       <p class="eyebrow">
+        10 / ПОДКЛЮЧЕНИЕ
+       </p>
+       <h2>
+        Для запуска достаточно
+        <span>
+         только сайта
+        </span>
+        клиники
+       </h2>
+       <p class="section-title__description">
+        После подключения AI анализирует сайт и формирует базу знаний.
+       </p>
+      </div>
+      <p class="setup-lead">
+       Базу знаний можно редактировать и дополнять независимо от сайта.
+      </p>
+      <div class="setup-mis-note">
+       <span class="setup-mis-note__icon">
+        <svg aria-hidden="true" class="lucide lucide-calendar-days" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+         <path d="M8 2v3">
+         </path>
+         <path d="M16 2v3">
+         </path>
+         <rect height="18" rx="2" width="18" x="3" y="3">
+         </rect>
+         <path d="M3 9h18">
+         </path>
+         <path d="M8 13h.01">
+         </path>
+         <path d="M12 13h.01">
+         </path>
+         <path d="M16 13h.01">
+         </path>
+         <path d="M8 17h.01">
+         </path>
+         <path d="M12 17h.01">
+         </path>
+         <path d="M16 17h.01">
+         </path>
+        </svg>
+       </span>
+       <div>
+        <strong>
+         Интеграция с МИС
+        </strong>
+        <p>
+         Позволяет получать актуальное расписание, сведения о специалистах и свободных слотах для записи.
+        </p>
+       </div>
+      </div>
+     </div>
+     <div class="setup-visual">
+      <div class="setup-knowledge-card">
+       <div class="setup-knowledge-card__head">
+        <span class="feature-card__icon">
+         <svg aria-hidden="true" class="lucide lucide-database" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="12" cy="5" rx="9" ry="3">
+          </ellipse>
+          <path d="M3 5V19A9 3 0 0 0 21 19V5">
+          </path>
+          <path d="M3 12A9 3 0 0 0 21 12">
+          </path>
+         </svg>
+        </span>
+        <div>
+         <strong>
+          База знаний
+         </strong>
+         <small>
+          Обновляется и редактируется
+         </small>
+        </div>
+       </div>
+       <div class="setup-material-list">
+        <div>
+         <svg aria-hidden="true" class="lucide lucide-file-text" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z">
+          </path>
+          <path d="M14 2v5a1 1 0 0 0 1 1h5">
+          </path>
+          <path d="M10 9H8">
+          </path>
+          <path d="M16 13H8">
+          </path>
+          <path d="M16 17H8">
+          </path>
+         </svg>
+         <span>
+          Прайс-лист
+         </span>
+         <svg aria-hidden="true" class="lucide lucide-check" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 6 9 17l-5-5">
+          </path>
+         </svg>
+        </div>
+        <div>
+         <svg aria-hidden="true" class="lucide lucide-sparkles lucide-stars" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+          </path>
+          <path d="M20 2v4">
+          </path>
+          <path d="M22 4h-4">
+          </path>
+          <circle cx="4" cy="20" r="2">
+          </circle>
+         </svg>
+         <span>
+          Преимущества клиники
+         </span>
+         <svg aria-hidden="true" class="lucide lucide-check" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 6 9 17l-5-5">
+          </path>
+         </svg>
+        </div>
+        <div>
+         <svg aria-hidden="true" class="lucide lucide-clipboard-list" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+          <rect height="4" rx="1" ry="1" width="8" x="8" y="2">
+          </rect>
+          <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2">
+          </path>
+          <path d="M12 11h4">
+          </path>
+          <path d="M12 16h4">
+          </path>
+          <path d="M8 11h.01">
+          </path>
+          <path d="M8 16h.01">
+          </path>
+         </svg>
+         <span>
+          Инструкции и материалы
+         </span>
+         <svg aria-hidden="true" class="lucide lucide-check" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 6 9 17l-5-5">
+          </path>
+         </svg>
+        </div>
+        <div>
+         <svg aria-hidden="true" class="lucide lucide-message-circle" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
+          </path>
+         </svg>
+         <span>
+          Tone of Voice
+         </span>
+         <svg aria-hidden="true" class="lucide lucide-check" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 6 9 17l-5-5">
+          </path>
+         </svg>
+        </div>
+        <div>
+         <svg aria-hidden="true" class="lucide lucide-file-text" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z">
+          </path>
+          <path d="M14 2v5a1 1 0 0 0 1 1h5">
+          </path>
+          <path d="M10 9H8">
+          </path>
+          <path d="M16 13H8">
+          </path>
+          <path d="M16 17H8">
+          </path>
+         </svg>
+         <span>
+          Дополнительные документы
+         </span>
+         <svg aria-hidden="true" class="lucide lucide-check" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 6 9 17l-5-5">
+          </path>
+         </svg>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="security-section section-shell section-shell--soft" id="security">
+    <div class="container security-layout">
+     <div class="section-title">
+      <p class="eyebrow">
+       11 / БЕЗОПАСНОСТЬ
+      </p>
+      <h2>
+       AI-администратор разработан специально для работы с клиниками и диалогами пациентов
+      </h2>
+     </div>
+     <div class="security-facts">
+      <article class="security-fact">
+       <span class="security-fact__icon">
+        <svg aria-hidden="true" class="lucide lucide-server" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+         <rect height="8" rx="2" ry="2" width="20" x="2" y="2">
+         </rect>
+         <rect height="8" rx="2" ry="2" width="20" x="2" y="14">
+         </rect>
+         <line x1="6" x2="6.01" y1="6" y2="6">
+         </line>
+         <line x1="6" x2="6.01" y1="18" y2="18">
+         </line>
+        </svg>
+       </span>
+       <p>
+        Данные проекта размещаются на инфраструктуре в России.
+       </p>
+      </article>
+      <article class="security-fact">
+       <span class="security-fact__icon">
+        <svg aria-hidden="true" class="lucide lucide-sparkles lucide-stars" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+         <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+         </path>
+         <path d="M20 2v4">
+         </path>
+         <path d="M22 4h-4">
+         </path>
+         <circle cx="4" cy="20" r="2">
+         </circle>
+        </svg>
+       </span>
+       <p>
+        Используются российские AI-модели и сервисы обработки данных.
+       </p>
+      </article>
+      <article class="security-fact">
+       <span class="security-fact__icon">
+        <svg aria-hidden="true" class="lucide lucide-shield-check" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+         <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+         </path>
+         <path d="m9 12 2 2 4-4">
+         </path>
+        </svg>
+       </span>
+       <p>
+        Архитектура работы с персональными данными строится с учётом требований 152-ФЗ.
+       </p>
+      </article>
+      <article class="security-fact">
+       <span class="security-fact__icon">
+        <svg aria-hidden="true" class="lucide lucide-database" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+         <ellipse cx="12" cy="5" rx="9" ry="3">
+         </ellipse>
+         <path d="M3 5V19A9 3 0 0 0 21 19V5">
+         </path>
+         <path d="M3 12A9 3 0 0 0 21 12">
+         </path>
+        </svg>
+       </span>
+       <p>
+        AI работает на основе данных и правил конкретной клиники.
+       </p>
+      </article>
+      <article class="security-fact">
+       <span class="security-fact__icon">
+        <svg aria-hidden="true" class="lucide lucide-stethoscope" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+         <path d="M11 2v2">
+         </path>
+         <path d="M5 2v2">
+         </path>
+         <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1">
+         </path>
+         <path d="M8 15a6 6 0 0 0 12 0v-3">
+         </path>
+         <circle cx="20" cy="10" r="2">
+         </circle>
+        </svg>
+       </span>
+       <p>
+        AI не предназначен для постановки диагноза или назначения лечения.
+       </p>
+      </article>
+      <article class="security-fact">
+       <span class="security-fact__icon">
+        <svg aria-hidden="true" class="lucide lucide-users" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+         <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2">
+         </path>
+         <path d="M16 3.128a4 4 0 0 1 0 7.744">
+         </path>
+         <path d="M22 21v-2a4 4 0 0 0-3-3.87">
+         </path>
+         <circle cx="9" cy="7" r="4">
+         </circle>
+        </svg>
+       </span>
+       <p>
+        Если запрос требует участия человека, обращение передаётся сотруднику клиники.
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="pricing-section section-shell section-shell--tint" id="pricing">
+    <div class="container pricing-layout">
+     <p class="eyebrow">
+      12 / ЦЕНА И ОКУПАЕМОСТЬ
+     </p>
+     <div class="pricing-summary">
+      <div class="pricing-copy">
+       <h2 class="pricing-price">
+        <span class="pricing-price__label">
+         Стоимость
+        </span>
+        <strong>
+         19 200 ₽
+        </strong>
+        <span class="pricing-price__period">
+         / месяц
+        </span>
+       </h2>
+       <p class="pricing-description">
+        AI-администратор работает 24/7 и помогает превращать больше посетителей сайта в пациентов клиники.
+       </p>
+      </div>
+      <div class="pricing-payback">
+       <h3>
+        <span class="pricing-payback__prefix">
+         Всего
+        </span>
+        <span class="pricing-payback__figure">
+         10
+        </span>
+        <span class="pricing-payback__label">
+         дополнительных
+         <br/>
+         пациентов
+        </span>
+       </h3>
+       <div aria-hidden="true" class="pricing-people">
+        <span>
+         <svg aria-hidden="true" class="lucide lucide-user-round lucide-user-2" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="8" r="5">
+          </circle>
+          <path d="M20 21a8 8 0 0 0-16 0">
+          </path>
+         </svg>
+        </span>
+        <span>
+         <svg aria-hidden="true" class="lucide lucide-user-round lucide-user-2" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="8" r="5">
+          </circle>
+          <path d="M20 21a8 8 0 0 0-16 0">
+          </path>
+         </svg>
+        </span>
+        <span>
+         <svg aria-hidden="true" class="lucide lucide-user-round lucide-user-2" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="8" r="5">
+          </circle>
+          <path d="M20 21a8 8 0 0 0-16 0">
+          </path>
+         </svg>
+        </span>
+        <span>
+         <svg aria-hidden="true" class="lucide lucide-user-round lucide-user-2" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="8" r="5">
+          </circle>
+          <path d="M20 21a8 8 0 0 0-16 0">
+          </path>
+         </svg>
+        </span>
+        <span>
+         <svg aria-hidden="true" class="lucide lucide-user-round lucide-user-2" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="8" r="5">
+          </circle>
+          <path d="M20 21a8 8 0 0 0-16 0">
+          </path>
+         </svg>
+        </span>
+        <span>
+         <svg aria-hidden="true" class="lucide lucide-user-round lucide-user-2" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="8" r="5">
+          </circle>
+          <path d="M20 21a8 8 0 0 0-16 0">
+          </path>
+         </svg>
+        </span>
+        <span>
+         <svg aria-hidden="true" class="lucide lucide-user-round lucide-user-2" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="8" r="5">
+          </circle>
+          <path d="M20 21a8 8 0 0 0-16 0">
+          </path>
+         </svg>
+        </span>
+        <span>
+         <svg aria-hidden="true" class="lucide lucide-user-round lucide-user-2" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="8" r="5">
+          </circle>
+          <path d="M20 21a8 8 0 0 0-16 0">
+          </path>
+         </svg>
+        </span>
+        <span>
+         <svg aria-hidden="true" class="lucide lucide-user-round lucide-user-2" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="8" r="5">
+          </circle>
+          <path d="M20 21a8 8 0 0 0-16 0">
+          </path>
+         </svg>
+        </span>
+        <span>
+         <svg aria-hidden="true" class="lucide lucide-user-round lucide-user-2" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="8" r="5">
+          </circle>
+          <path d="M20 21a8 8 0 0 0-16 0">
+          </path>
+         </svg>
+        </span>
+       </div>
+       <p>
+        полностью покрывают стоимость сервиса.
+       </p>
+      </div>
+     </div>
+     <div class="pricing-patients">
+      <p>
+       Дополнительные пациенты появляются среди тех, кто раньше:
+      </p>
+      <ul>
+       <li>
+        <span class="pricing-reason-icon">
+         <svg aria-hidden="true" class="lucide lucide-route" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="6" cy="19" r="3">
+          </circle>
+          <path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15">
+          </path>
+          <circle cx="18" cy="5" r="3">
+          </circle>
+         </svg>
+        </span>
+        <span>
+         не разобрался в структуре сайта;
+        </span>
+       </li>
+       <li>
+        <span class="pricing-reason-icon">
+         <svg aria-hidden="true" class="lucide lucide-search" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+          <path d="m21 21-4.34-4.34">
+          </path>
+          <circle cx="11" cy="11" r="8">
+          </circle>
+         </svg>
+        </span>
+        <span>
+         не нашёл подходящую услугу в прайсе;
+        </span>
+       </li>
+       <li>
+        <span class="pricing-reason-icon">
+         <svg aria-hidden="true" class="lucide lucide-stethoscope" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11 2v2">
+          </path>
+          <path d="M5 2v2">
+          </path>
+          <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1">
+          </path>
+          <path d="M8 15a6 6 0 0 0 12 0v-3">
+          </path>
+          <circle cx="20" cy="10" r="2">
+          </circle>
+         </svg>
+        </span>
+        <span>
+         не понял, к кому и за какой услугой обращаться;
+        </span>
+       </li>
+       <li>
+        <span class="pricing-reason-icon">
+         <svg aria-hidden="true" class="lucide lucide-clock-3" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="10">
+          </circle>
+          <path d="M12 6v6h4">
+          </path>
+         </svg>
+        </span>
+        <span>
+         пытался связаться с клиникой в нерабочее время;
+        </span>
+       </li>
+       <li>
+        <span class="pricing-reason-icon">
+         <svg aria-hidden="true" class="lucide lucide-circle-question-mark lucide-help-circle lucide-circle-help" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="10">
+          </circle>
+          <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3">
+          </path>
+          <path d="M12 17h.01">
+          </path>
+         </svg>
+        </span>
+        <span>
+         не получил достаточно информации для принятия решения;
+        </span>
+       </li>
+       <li>
+        <span class="pricing-reason-icon">
+         <svg aria-hidden="true" class="lucide lucide-users" fill="none" height="21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2">
+          </path>
+          <path d="M16 3.128a4 4 0 0 1 0 7.744">
+          </path>
+          <path d="M22 21v-2a4 4 0 0 0-3-3.87">
+          </path>
+          <circle cx="9" cy="7" r="4">
+          </circle>
+         </svg>
+        </span>
+        <span>
+         потерялся из-за высокой загрузки администраторов.
+        </span>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </section>
+   <section class="final-section section-shell" id="demo">
+    <div class="container">
+     <div class="final-layout">
+      <div class="final-copy">
+       <p class="eyebrow">
+        13 / БЕСПЛАТНОЕ ДЕМО
+       </p>
+       <h2>
+        Попробуйте AI-администратора на данных своей клиники
+       </h2>
+       <p>
+        Закажите бесплатный демопроект на информации с сайта и протестируйте, как система отвечает на вопросы, ориентируется в услугах и ценах и помогает пациенту дойти до записи.
+       </p>
+       <button class="button button--primary button--large" type="button">
+        Заказать демо
+        <svg aria-hidden="true" class="lucide lucide-arrow-right" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+         <path d="M5 12h14">
+         </path>
+         <path d="m12 5 7 7-7 7">
+         </path>
+        </svg>
+       </button>
+      </div>
+      <div class="final-visual">
+       <img alt="Врач за столом в кабинете, рядом ноутбук и медицинский монитор" class="final-doctor" decoding="async" height="1254" loading="lazy" sizes="(max-width: 767px) 90vw, 45vw" src="./images/doctor-consultation-scene.png" width="1254"/>
+       <div aria-label="Возможности AI-администратора" class="final-benefits" role="list">
+        <span class="final-benefit-pill final-benefit-pill--one" role="listitem">
+         <i class="final-benefit-icon final-benefit-icon--mint">
+          <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+           <path d="M7 7h10v10">
+           </path>
+           <path d="M7 17 17 7">
+           </path>
+          </svg>
+         </i>
+         <span>
+          Увеличивает выручку
+         </span>
+         <b aria-hidden="true">
+          +
+         </b>
+        </span>
+        <span class="final-benefit-pill final-benefit-pill--two" role="listitem">
+         <i class="final-benefit-icon final-benefit-icon--blue">
+          <svg aria-hidden="true" class="lucide lucide-trending-up" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+           <path d="M16 7h6v6">
+           </path>
+           <path d="m22 7-8.5 8.5-5-5L2 17">
+           </path>
+          </svg>
+         </i>
+         <span>
+          Увеличивает конверсию в запись
+         </span>
+         <b aria-hidden="true">
+          +
+         </b>
+        </span>
+        <span class="final-benefit-pill final-benefit-pill--three" role="listitem">
+         <i class="final-benefit-icon final-benefit-icon--peach">
+          <svg aria-hidden="true" class="lucide lucide-message-circle" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+           <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
+           </path>
+          </svg>
+         </i>
+         <span>
+          Отвечает на вопросы пациентов
+         </span>
+         <b aria-hidden="true">
+          +
+         </b>
+        </span>
+        <span class="final-benefit-pill final-benefit-pill--four" role="listitem">
+         <i class="final-benefit-icon final-benefit-icon--mint">
+          <svg aria-hidden="true" class="lucide lucide-stethoscope" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+           <path d="M11 2v2">
+           </path>
+           <path d="M5 2v2">
+           </path>
+           <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1">
+           </path>
+           <path d="M8 15a6 6 0 0 0 12 0v-3">
+           </path>
+           <circle cx="20" cy="10" r="2">
+           </circle>
+          </svg>
+         </i>
+         <span>
+          Помогает выбрать специалиста
+         </span>
+         <b aria-hidden="true">
+          +
+         </b>
+        </span>
+        <span class="final-benefit-pill final-benefit-pill--five" role="listitem">
+         <i class="final-benefit-icon final-benefit-icon--violet">
+          <svg aria-hidden="true" class="lucide lucide-sparkles lucide-stars" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+           <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+           </path>
+           <path d="M20 2v4">
+           </path>
+           <path d="M22 4h-4">
+           </path>
+           <circle cx="4" cy="20" r="2">
+           </circle>
+          </svg>
+         </i>
+         <span>
+          Повышает удобство для пациентов
+         </span>
+         <b aria-hidden="true">
+          +
+         </b>
+        </span>
+        <span class="final-benefit-pill final-benefit-pill--seven" role="listitem">
+         <i class="final-benefit-icon final-benefit-icon--violet">
+          <svg aria-hidden="true" class="lucide lucide-clock-3" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+           <circle cx="12" cy="12" r="10">
+           </circle>
+           <path d="M12 6v6h4">
+           </path>
+          </svg>
+         </i>
+         <span>
+          Работает 24/7
+         </span>
+         <b aria-hidden="true">
+          +
+         </b>
+        </span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <div class="demo-modal-backdrop" hidden="" id="demo-modal-backdrop">
+   <section aria-describedby="demo-modal-note" aria-labelledby="demo-modal-title" aria-modal="true" class="demo-modal" role="dialog">
+    <button aria-label="Закрыть форму" class="demo-modal__close" id="demo-modal-close" type="button">
+     <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+      <path d="M18 6 6 18">
+      </path>
+      <path d="m6 6 12 12">
+      </path>
+     </svg>
+    </button>
+    <p class="eyebrow">
+     БЕСПЛАТНОЕ ДЕМО
+    </p>
+    <h2 id="demo-modal-title">
+     Заказать демо
+    </h2>
+    <form class="demo-modal__form" id="demo-modal-form">
+     <label>
+      Ваше имя
+      <input autocomplete="name" name="name" type="text"/>
+     </label>
+     <label>
+      Клиника
+      <input autocomplete="organization" name="clinic" type="text"/>
+     </label>
+     <label>
+      Телефон
+      <input autocomplete="tel" name="phone" type="tel"/>
+     </label>
+     <button class="button button--primary button--large" disabled="" type="submit">
+      Отправить заявку
+     </button>
+     <p id="demo-modal-note">
+      Заявки пока не отправляются.
+     </p>
+    </form>
+   </section>
+  </div>
+  <footer class="site-footer">
+   <div class="container footer-inner">
+    <a class="brand brand--footer" href="#top">
+     <span class="brand-mark">
+      <span>
+      </span>
+      <span>
+      </span>
+      <span>
+      </span>
+      <span>
+      </span>
+     </span>
+     <span class="brand-copy">
+      <strong>
+       ChatMD
+      </strong>
+      <small>
+       AI-администратор клиники
+      </small>
+     </span>
+    </a>
+    <span class="footer-note">
+     Демо-концепция · продуктовые сведения требуют подтверждения
+    </span>
+    <a class="back-top" href="#top">
+     Наверх
+     <svg aria-hidden="true" class="lucide lucide-arrow-up-right" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17" xmlns="http://www.w3.org/2000/svg">
+      <path d="M7 7h10v10">
+      </path>
+      <path d="M7 17 17 7">
+      </path>
+     </svg>
+    </a>
+   </div>
+  </footer>
+  <script src="./script.js">
+  </script>
+ </body>
+</html>
