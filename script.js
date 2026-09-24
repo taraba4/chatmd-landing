@@ -63,14 +63,35 @@
   // Keep the no-JavaScript radio gallery; enhance only the mobile chooser.
   const chooser = document.getElementById('scenario-select');
   const radios = [...document.querySelectorAll('.scenario-radio')];
+  let scenarioScrollPosition = null;
+  const rememberPagePosition = () => {
+    scenarioScrollPosition = { left: window.scrollX, top: window.scrollY };
+  };
+  const preservePagePosition = () => {
+    const position = scenarioScrollPosition || { left: window.scrollX, top: window.scrollY };
+    scenarioScrollPosition = null;
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => window.scrollTo({ ...position, behavior: 'auto' }));
+    });
+  };
+  chooser.addEventListener('pointerdown', rememberPagePosition);
+  chooser.addEventListener('focus', rememberPagePosition);
+  document.querySelectorAll('.scenario-tab').forEach((tab) => {
+    tab.addEventListener('pointerdown', rememberPagePosition);
+    tab.addEventListener('keydown', rememberPagePosition);
+  });
   const syncChooser = () => {
     chooser.value = radios.find((radio) => radio.checked).id;
   };
   chooser.addEventListener('change', () => {
+    preservePagePosition();
     const radio = radios.find((item) => item.id === chooser.value);
     if (radio) radio.checked = true;
   });
-  radios.forEach((radio) => radio.addEventListener('change', syncChooser));
+  radios.forEach((radio) => radio.addEventListener('change', () => {
+    preservePagePosition();
+    syncChooser();
+  }));
   syncChooser();
   document.documentElement.classList.add('has-scenario-select');
 })();

@@ -25,6 +25,7 @@
   --layout-gap: clamp(32px, 5vw, 72px);
 }
 body { line-height: 1.6; }
+html { scroll-padding-top: 72px; }
 .container { width: min(calc(100% - 80px), var(--container-max)); }
 .section-shell { padding-block: var(--section-space); }
 .section-shell--soft { background: #f7f8fb; }
@@ -63,10 +64,12 @@ body { line-height: 1.6; }
 .button--primary:hover { box-shadow: 0 8px 24px #7053ed30; }
 .button--text { padding-inline: 16px; }
 .button:active { transform: translateY(0); }
-.header-inner { min-height: 80px; }
+.header-inner { min-height: 60px; }
+.header-cta { min-height: 40px; }
 .main-nav { gap: 28px; }
 .main-nav a { font-size: var(--type-ui); }
 .brand-copy strong { letter-spacing: -.04em; }
+.scenario-radio { scroll-margin-top: 72px; }
 
 /* First screen: keep the complete original dialogue composition. */
 .hero-section { padding-top: 48px; padding-bottom: 0; }
@@ -254,20 +257,20 @@ body { line-height: 1.6; }
 
 @media (max-width: 767px) {
   :root { --type-title: clamp(30px, 7.6vw, 38px); --type-body: 16px; --type-card: 20px; --section-space: 64px; --layout-gap: 32px; }
-  html { scroll-padding-top: 88px; }
+  html { scroll-padding-top: 72px; }
   .container { width: calc(100% - 40px); }
   .section-title { margin-bottom: 28px; }
   .eyebrow { margin-bottom: 16px; font-size: 12px; letter-spacing: .07em; }
   .section-title__description, .value-lead, .setup-lead, .final-copy > p:not(.eyebrow), .pricing-description { font-size: var(--type-body); margin-top: 20px; line-height: 1.65; }
-  .header-inner { min-height: 72px; gap: 8px; }
+  .header-inner { min-height: 60px; gap: 8px; }
   .brand-copy strong { font-size: 19px; }
   .brand-copy small { font-size: 9px; }
   .header-actions { gap: 8px; }
-  .header-cta { min-height: 44px; padding-inline: 16px; }
+  .header-cta { min-height: 40px; padding-inline: 14px; }
   .header-cta__label { display: none; }
   .header-cta__compact-label { display: inline; }
   .header-cta svg { display: block; }
-  .menu-toggle { width: 44px; height: 44px; }
+  .menu-toggle { width: 40px; height: 40px; }
   .main-nav--mobile a { font-size: 16px; min-height: 48px; }
   .hero-section { padding-top: 24px; padding-bottom: 0; }
   .hero-grid { gap: 0; min-height: 0; }
